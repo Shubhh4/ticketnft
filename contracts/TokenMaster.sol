@@ -21,7 +21,7 @@ contract TokenMaster is ERC721 {
 
     mapping(uint256 => Occasion) occasions;
     mapping(uint256 => mapping(address => bool)) public hasBought;
-    mapping(uint256 => mapping(uint256 => address)) public seatTaken;
+    mapping(uint256 => mapping(uint256 => address)) public seatTakens;
     mapping(uint256 => uint256[]) seatsTaken;
 
     modifier onlyOwner() {
