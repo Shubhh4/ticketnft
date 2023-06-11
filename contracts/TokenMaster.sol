@@ -16,7 +16,7 @@ contract TokenMaster is ERC721 {
         uint256 maxTickets;
         string date;
         string time;
-        string location;
+        string locations;
     }
 
     mapping(uint256 => Occasion) occasions;
