@@ -13,7 +13,7 @@ contract TokenMaster is ERC721 {
         string name;
         uint256 cost;
         uint256 tickets;
-        uint256 maxTickets;
+        uint256 maxTicket;
         string date;
         string time;
         string location;
